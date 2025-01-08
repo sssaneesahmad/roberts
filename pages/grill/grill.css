@@ -1,0 +1,76 @@
+.grill-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/bg-08-free-img.jpg");
+}
+
+.border-radius {
+    border-radius: 50%;
+}
+
+.border-top-b {
+    border-top: 1px solid #b28e657a;
+    border-bottom: 1px solid #b28e657a;
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+
+.border-top-bs {
+    border-bottom: 1px solid #b28e657a;
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+
+.img-gap {
+    gap: 25px;
+    flex-basis: 95%;
+    width: 100%;
+}
+
+.price-here {
+    flex-basis: 5%;
+    width: 100%;
+}
+
+.new-container {
+    max-width: 1000px !important;
+}
+
+.first-section {
+    background-color: #f8f1e3;
+    padding: 125px 0px;
+}
+
+.main-p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #676767;
+}
+
+.main-h {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.streak {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.border-b-n {
+    border-bottom: none !important;
+}
+
+.grill-hr {
+    border-color: #b28e65;
+}
+.active {
+    color: #b28e65 !important;
+}
+@media only screen and (max-width:768px) {
+    .remove-p {
+        padding-top: 0;
+    }
+
+    .new-p {
+        padding-top: 80px;
+    }
+}

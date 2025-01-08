@@ -1,0 +1,155 @@
+.conts-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/bg-11-free-img.jpg");
+}
+
+.contact-img {
+  background-image: url(/images/bg-02-free-img-overlay\ \(1\).jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 865px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-bg-contact {
+  background-color: #f8f1e3;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.email,
+.email a {
+  font-size: 20px;
+  color: white;
+}
+
+.email a,
+.contact-address {
+  text-decoration: underline;
+}
+
+.email a:hover {
+  color: white;
+}
+
+/* ---------------- */
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.classss {
+  display: flex;
+  gap: 40px;
+}
+
+.give {
+  flex-basis: 50%;
+
+}
+
+.new-class {
+  margin: 0 !important;
+  margin-top: -10px !important;
+  padding-left: 4px !important;
+}
+
+
+.contact-msg {
+  color: black;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.contact-hr {
+  color: #b28e65 !important;
+  width: 40px;
+  border: 1px solid;
+}
+
+.new-flex-contacts {
+  padding: 82px 110px !important;
+}
+
+.check-fw {
+  font-weight: 700;
+}
+
+.new-font {
+  font-size: 14px;
+
+}
+
+.submit-form {
+  background-color: #b28e65 !important;
+  margin-top: 44px;
+  transition: 0.5s;
+  border: 1px solid #b28e65 !important;
+}
+
+.contact-sec:hover {
+  color: #b28e65;
+}
+
+.submit-form:hover {
+  background-color: white !important;
+  color: black;
+  transition: 0.5s;
+}
+
+/* ------------ */
+
+@media only screen and (max-width:1260px) {
+
+  .new-flex-contacts {
+    padding: 82px 50px !important;
+  }
+}
+
+@media only screen and (max-width:1024px) {
+
+  .new-flex-contacts {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    min-height: 705px;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .classss {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .header-heading {
+    font-size: 55px;
+  }
+
+}

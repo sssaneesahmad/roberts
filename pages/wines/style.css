@@ -1,0 +1,50 @@
+.wine-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/bg-09-free-img.jpg");
+}
+
+@media only screen and (max-width:1024px) {
+    .first-blog-post img {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+
+@media only screen and (max-width:768px) {
+    .img-gap {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .border-top-b,
+    .border-top-bs {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .discover-heading,
+    .header-headings {
+        font-size: 55px;
+    }
+
+    .post-section {
+        flex-direction: column !important;
+    }
+
+    .post-inner img {
+        width: 370px;
+        height: 440px;
+    }
+
+    br:not(.not-this) {
+        display: none;
+    }
+
+    .remove-padding {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .header-heading{
+        font-size: 85px;
+    }
+}
