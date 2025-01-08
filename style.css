@@ -96,7 +96,8 @@
 }
 
 .section-two {
-    background-image: url(images/bg-02-free-img-overlay\ \(1\).jpg);
+    /* background-image: url(images/bg-02-free-img-overlay\ \(1\).jpg); */
+    background-image: url(/images/bg-020-free-img-overlay.jpg);
     min-height: 755px;
     background-size: cover;
     justify-content: center;
