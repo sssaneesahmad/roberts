@@ -1,16 +1,13 @@
 function openNav() {
   document.getElementById("mySidenav").style.width = "100%";
+  document.getElementById("mySidenav").style.padding = "200px 120px 0px 120px"; // restore the padding when opened
 }
 
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("mySidenav").style.padding = "0"; // remove the padding when closed
 }
- 
-  
-  // Ensure the sidebar closes when the user navigates away from the page
-  window.addEventListener("beforeunload", function () {
-    document.getElementById("mySidenav").style.width = "0";
-  });
+
 
 // class Mygallary extends HTMLElement {
 //   connectedCallback() {
@@ -89,13 +86,3 @@ document.getElementById('contactForm').addEventListener('submit', async function
     }, 5000); // Hide success message after 5 seconds
   }
 });
-
-
-
-
-
-
-
-
-
-
