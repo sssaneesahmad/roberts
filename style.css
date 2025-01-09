@@ -588,7 +588,6 @@
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
-    /* padding: 200px 120px 0px 120px; */
   }
   
   .sidenav a {
@@ -613,6 +612,7 @@
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+    border: none;
   }
 /* .sidenav {
     height: 100%;
@@ -853,6 +853,7 @@
     .host-btn-color {
         padding: 15px 18px !important;
     }
+   
 }
 
 @media screen and (max-height: 450px) {

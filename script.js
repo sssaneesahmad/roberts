@@ -1,14 +1,28 @@
+// function openNav() {
+//   document.getElementById("mySidenav").style.width = "100%";
+//   document.getElementById("mySidenav").style.padding = "200px 120px 0px 120px"; // restore the padding when opened
+// }
+
+// function closeNav() {
+//   document.getElementById("mySidenav").style.width = "0";
+//   document.getElementById("mySidenav").style.padding = "0"; // remove the padding when closed
+// }
+
 function openNav() {
   document.getElementById("mySidenav").style.width = "100%";
-  document.getElementById("mySidenav").style.padding = "200px 120px 0px 120px"; // restore the padding when opened
+  
+  // Check if the screen width is less than or equal to 768px
+  if (window.innerWidth <= 768) {
+    document.getElementById("mySidenav").style.padding = "150px 80px 0px 80px"; // Apply smaller padding
+  } else {
+    document.getElementById("mySidenav").style.padding = "200px 120px 0px 120px"; // Apply larger padding
+  }
 }
 
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
-  document.getElementById("mySidenav").style.padding = "0"; // remove the padding when closed
+  document.getElementById("mySidenav").style.padding = "0"; // Remove padding when closed
 }
-
-
 // class Mygallary extends HTMLElement {
 //   connectedCallback() {
 //     this.innerHTML = `
