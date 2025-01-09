@@ -40,6 +40,7 @@
 /* ---------------- */
 
 input[type=text],
+input[type=email],
 select,
 textarea {
   width: 100%;
@@ -52,7 +53,7 @@ textarea {
   resize: vertical;
 }
 
-input[type=submit] {
+.submit-form {
   background-color: #04AA6D;
   color: white;
   padding: 12px 20px;
@@ -61,7 +62,7 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
+.submit-form:hover {
   background-color: #45a049;
 }
 
@@ -72,7 +73,6 @@ input[type=submit]:hover {
 
 .give {
   flex-basis: 50%;
-
 }
 
 .new-class {
@@ -124,7 +124,52 @@ input[type=submit]:hover {
   transition: 0.5s;
 }
 
-/* ------------ */
+/* Spinner overlay styling */
+#spinner-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+#spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Success message styling */
+#success-message {
+  display: none;
+  margin-top: 20px;
+  padding: 10px;
+  color: #155724;
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  border-radius: 5px;
+  font-size: 16px;
+}
 
 @media only screen and (max-width:1260px) {
 
