@@ -1,12 +1,3 @@
-// function openNav() {
-//   document.getElementById("mySidenav").style.width = "100%";
-//   document.getElementById("mySidenav").style.padding = "200px 120px 0px 120px"; // restore the padding when opened
-// }
-
-// function closeNav() {
-//   document.getElementById("mySidenav").style.width = "0";
-//   document.getElementById("mySidenav").style.padding = "0"; // remove the padding when closed
-// }
 
 function openNav() {
   document.getElementById("mySidenav").style.width = "100%";
