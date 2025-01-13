@@ -255,6 +255,9 @@
     border: 1px solid #b28e65;
     background-color: transparent;
 }
+.book-a-tabling:focus , .book-a-table:focus , .host-btn:focus , .submit-form:focus {
+    outline: 0;
+}
 
 .book-a-tabling:hover {
     color: #ffffff;
