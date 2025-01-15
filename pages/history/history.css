@@ -183,102 +183,9 @@
     }
 }
 
-
-/* @media only screen and (max-width:768px) {
-
-    .history-bg-one,
-    .history-bg-two {
-        flex-basis: 100%;
-    }
-
-    .give-flex-clo {
-        flex-direction: column;
-    }
-
-    .check-timeline {
-        flex-direction: column;
-    }
-
-    .bottom-border-c {
-        border-bottom: 1px solid #b28e65;
-        width: 100%;
-        justify-content: flex-start !important;
-        align-items: center !important;
-    }
-
-    .last-time {
-        width: 100%;
-    }
-
-    .years-h,
-    .right-border {
-        border: none;
-        width: 100%;
-    }
-
-    .right-year {
-        padding-top: 40px;
-    }
-
-    .years-h {
-        justify-content: center;
-        align-items: center;
-    }
-
-    .timeline-inner-h,
-    .timeline-inner-p {
-        text-align: center;
-    }
-
-    .years-h {
-        max-width: 100% !important;
-        width: 100%;
-    }
-
-    .time-inner,
-    .time-inners {
-        text-align: center;
-        padding-right: 0px;
-        padding-bottom: 40px;
-        padding-left: 0;
-    }
-
-    .year-date,
-    .year-dates {
-        text-align: center;
-        padding: 0;
-    }
-
-    .year-date {
-        padding-top: 40px;
-    }
-
-    .left-timeline,
-    .right-timeline {
-        flex-basis: 100%;
-        display: flex;
-        justify-content: start;
-        flex-direction: column;
-        align-items: start;
-    }
-
-    .icon {
-        right: 49%;
-        top: 120px;
-    }
-
-    .new-position {
-        top: 120px;
-    }
-
-    .none-p {
-        display: none;
-    }
-} */
-
 @media only screen and (max-width:768px) {
     .history-section {
-        min-height: 427px;
+        min-height: 520px;
     }
 
     .history-heading {
@@ -316,7 +223,7 @@
     }
 
     .history-bg-two {
-        padding: 115px 25px 0px 25px;
+        padding: 60px 25px 0px 25px;
     }
 
     .we-are-still {
@@ -340,6 +247,10 @@
     .bg-img-four,
     .bg-img-one {
         min-height: 400px;
+    }
+    .timeline-history {
+        
+        padding: 60px 0px;
     }
 }
 
@@ -384,7 +295,9 @@
     .right-year {
         padding-top: 40px;
     }
-
+    .header-heading {
+        font-size: 55px;
+    }
     .years-h {
         justify-content: center;
         align-items: center;
@@ -429,7 +342,7 @@
 
     .icon {
         left: -7px;
-        top: 70px;
+        top: -12px;
     }
 
     .icons {
@@ -439,7 +352,7 @@
     }
 
     .new-position {
-        top: 70px;
+        top: -12px;
     }
 
     .none-p {

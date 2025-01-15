@@ -831,6 +831,12 @@
     .host-btn-color {
         padding: 15px 18px !important;
     }
+    .header-heading {
+        font-size: 55px !important;
+    }
+    .header-bg {
+        min-height: 900px;
+    }
 
 }
 
